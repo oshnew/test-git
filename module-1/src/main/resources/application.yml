@@ -2,5 +2,14 @@
 info:
   app:
     name: 모듈 1
-    description: 모듈 2
+    description: 모듈 1
     version: 1.0.0
+
+management:
+  endpoint:
+    heapdump:
+      enabled: false
+  endpoints:
+    web:
+      base-path: /system/actuator #잘 알려진 URL 및 포트 등의 정보는 변경하는게 좋음
+
